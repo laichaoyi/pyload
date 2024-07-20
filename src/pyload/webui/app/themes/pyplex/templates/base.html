@@ -148,7 +148,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><span class="navbar-text"><span class="glyphicon glyphicon-user" title="{{user.name}}></span><span class="hidden-sm hidden-md"> {{user.name}}</span></span></li>
             <li><a href="{{url_for("app.logout")}}" class="action logout" rel="nofollow"><span class="glyphicon glyphicon-log-out"></span><span class="hidden-sm hidden-md">  {{_('Logout')}}</span></a></li>
-            <li ondragstart="return false;" {{selected('info')}}><a href="{{url_for("app.info")}}"  class="action info" rel="nofollow"><span class="glyphicon glyphicon-info-sign"></span><span class="hidden-sm hidden-md">  {{_('Info')}}</span></a></li>
+            
           </ul>
         {% endif %}
       </div><!-- /.navbar-collapse -->
@@ -211,7 +211,7 @@
 </div>
 
 <hr style="clear: both;" />
-<div id="foot" class="navbar navbar-static-bottom navbar-inverse" style="width: 100%; text-align:center;">&copy; 2008-2024 pyLoad team</div>
+<div id="foot" class="navbar navbar-static-bottom navbar-inverse" style="width: 100%; text-align:center;">&copy; NDLoad Tool</div>
 
 <div id="goto_top" class="btn-dark hidden" style="position: fixed; width: 25px; height: 25px;background-color: #eeeeee; color: #282828; opacity: 0.5; cursor: pointer; z-index: 10; border-radius: 5px; display: block;" title="{{_('Back to top')}}">
     <div class="glyphicon glyphicon-chevron-up" style="padding-top: 5px; padding-left: 6px; opacity: 0.5;"></div>
